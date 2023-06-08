@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main className=' bg-white px-10'>
         <section className='h-screen'>
           <nav className='py-10 mb-12 flex justify-between'> 
@@ -46,24 +46,45 @@ export default function Home() {
           </div>
         </section>
 {/*Second Page*/}
-        <section>
-          <div>
+        <section >
+          <div >
             <h3 className=' text-3xl  text-stone-700 py-1'>Services I offer</h3>
             <p className='text-md leading-8 text-stone-700 '>  Since the beginning i have alwasy love to look at the way things work, take them apart and <span className = "text-purple-800">tinker!</span> Now I translate that into <span className = "text-purple-800"> SWE! </span>
             </p>
           </div>
-          <div>
-            <div className= "text-center shadow-lg p-10 rounded-xl my-10" >
-              <Image src= {design} width ={100} height={100}/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Next Level Designs</h3>
-              <p className = "py-2">Creating amazing designs suited for you or your comapanies needs.</p>
-              <h4 className='py-4 text-purple-800'>Design Tools I Use</h4>
-              <p className ="text-gray-800">Photoshop</p>
-              <p className ="text-gray-800">Miro</p>
-              <p className ="text-gray-800">Figma</p>
+          {/*Card 1 */}
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+                <Image src={design} width={100} height={100} />
+                <h3 className='text-lg font-medium pt-8 pb-2'>
+                Next Level Designs
+                </h3>
+                <p className = "py-2">
+                Creating amazing designs suited for you or your comapanies needs.
+                </p>
+                <h4 className='py-4 text-purple-800'>Design Tools I Use</h4>
+               <p className ="text-gray-800">Photoshop</p>
+               <p className ="text-gray-800">Miro</p>
+               <p className ="text-gray-800">Figma</p>
+              <p className ="text-gray-800">Lucid Chart</p>
+            </div>
+            {/*Card 2*/}
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+                <Image src={code} width={100} height={100} />
+                <h3 className='text-lg font-medium pt-8 pb-2'>
+                Next Level Designs
+                </h3>
+                <p className = "py-2">
+                Creating amazing designs suited for you or your comapanies needs.
+                </p>
+                <h4 className='py-4 text-purple-800'>Design Tools I Use</h4>
+               <p className ="text-gray-800">Photoshop</p>
+               <p className ="text-gray-800">Miro</p>
+               <p className ="text-gray-800">Figma</p>
               <p className ="text-gray-800">Lucid Chart</p>
             </div>
           </div>
+          
         </section>s
       </main>
 

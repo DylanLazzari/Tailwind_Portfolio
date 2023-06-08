@@ -48,29 +48,22 @@ export default function Home() {
 {/*Second Page*/}
         <section>
           <div>
-            <h3 className=' text-3xl  text-stone-700 py-10'>About Me</h3>
-            <p className='text-md leading-8 text-stone-700 '>
-               {/*throw somethingliek <span class namem color/wor/ />span in here for highlights*/}
-
+            <h3 className=' text-3xl  text-stone-700 py-1'>Services I offer</h3>
+            <p className='text-md leading-8 text-stone-700 '>  Since the beginning i have alwasy love to look at the way things work, take them apart and <span className = "text-purple-800">tinker!</span> Now I translate that into <span className = "text-purple-800"> SWE! </span>
             </p>
           </div>
-          <div>
-            <h3 className='text-3xl  text-stone-700 py-10'>Experience</h3>
-            <div>
-              <Image src={adp} width={100} height={100}/>
-              <h3 className='text-stone-700 py-1'>Automatic Data Processig</h3>
-              <p className='text-stone-700 py-1'> ●	Aided in completion and Deployment of The Voice of the Employee survey software. <br />
-                  ●	Developed data storing templates for surveys using SQL and Python. <br />
-                  ●	Maintained and unit Tested API’s using Python and Amazon Web Services. <br />
-                  ●	Meticulously tracked and maintained ticket completion during current sprints using Jira and SCRUM.
-              </p>
-              <h3 className=' py-4 text-stone-800'>Languages used</h3>
-              <p className='text-stone-700 py-1'>SQL</p>
-              <p className='text-stone-700 py-1'>python</p>
-
-            </div>
+          <div className= "text-center shadow-lg p-10 rounded-xl my-10">
+            <Image src= {design} width ={100} height={100} />
+            <h3 className='text-lg font-medium pt-8 pb-2'>Next Level Designs</h3>
+            <p className = "py-2">Creating amazing designs suited for you or your comapanies needs.</p>
+            <h4 className='py-4 text-purple-800'>Design Tools I Use</h4>
+            <p className ="text-gray-800">Photoshop</p>
+            <p className ="text-gray-800">Miro</p>
+            <p className ="text-gray-800">Figma</p>
+            <p className ="text-gray-800">Lucid Chart</p>
+          
           </div>
-        </section>
+        </section>s
       </main>
 
     </div>
